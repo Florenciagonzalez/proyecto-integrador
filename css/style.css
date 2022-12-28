@@ -1,0 +1,165 @@
+/*General*/
+*{
+    margin: 0;
+    font-family: 'Chakra Petch', serif;   
+}
+
+body{
+    background-color: #FFF0D1;
+    position: absolute;
+}
+
+h1{
+    text-shadow: 0.5rem 0.5rem 0.5rem rgb(188, 188, 188);
+}
+
+.container h1 {
+    margin-top: 4rem;
+    font-size: 3.5rem ;
+    text-align: center;
+} 
+
+
+/*Header*/
+
+header nav{
+    width: 100%;
+    background-color: #f4c47c;
+    position: fixed;
+    box-shadow: 0 0.4rem 0.2rem -0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2.5rem;
+}
+
+.menu li{
+    display: block;
+    padding: 1rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #f9a39a;
+    transition: all .4s;
+    border-bottom: solid 0.15rem #f9a39a;   
+}
+
+.banner{
+    padding-top: 4rem;
+    background: linear-gradient(to right, #f9a39a, #fa9287) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 0.3rem #f9cb74;
+}
+
+.banner img{
+    margin-bottom: -9%;
+}
+
+.banner h1{
+    color: white;
+    font-size: 6rem;
+}
+    
+
+/* Presentación*/
+
+ .presentation{
+    margin-top: 7rem;
+ }
+
+.presentation-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.profile-picture{
+    margin-left: 17%;
+    margin-bottom: 2rem;
+}
+
+.profile-picture img{
+    width: 70%;
+    border: solid 0.25rem #f9cb74;
+    border-radius: 50%;
+    box-shadow: 0 0 0.5rem  rgba(0, 0, 0, 0.559);
+}
+
+.about-me{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-right: 8rem;
+}
+
+
+/* Habilidades */
+
+.skills-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 5rem;
+    margin: 4rem 13rem 4rem 13rem;
+}
+
+.skills-flex span{
+    margin: 1.5rem;
+    padding: 1rem;
+    background-color: #fafafa;
+    border-radius: 5%;
+    box-shadow: 0.1rem 0.2rem 0.1rem 0.2rem #f4cf96, -0.1em 0 0.1em rgb(197, 197, 197);
+
+}
+
+.skills-flex span:hover{
+    transition: all .4s;
+    transform: scale(1.2);
+
+}
+
+
+/* Proyectos */
+
+.projects{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.projects img{
+    width: 100%;
+}
+
+.projects-flex{
+    display: flex;
+}
+
+.project {
+    width: 35%;
+    margin: 2rem;
+    background-color: white;
+}
+
+.project button {
+    font-size: 1.2rem;
+}
+
+.project h3{
+    font-size: 1.5rem;
+}
+

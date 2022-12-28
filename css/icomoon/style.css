@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?hiar6l');
+  src:  url('fonts/icomoon.eot?hiar6l#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hiar6l') format('truetype'),
+    url('fonts/icomoon.woff?hiar6l') format('woff'),
+    url('fonts/icomoon.svg?hiar6l#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angular:before {
+  content: "\e900";
+  color: #dd0031;
+}
+.icon-bootstrap:before {
+  content: "\e901";
+  color: #563d7c;
+}
+.icon-css3:before {
+  content: "\e902";
+  color: #1572b6;
+}
+.icon-git:before {
+  content: "\e903";
+  color: #f05032;
+}
+.icon-github:before {
+  content: "\e904";
+}
+.icon-html5:before {
+  content: "\e905";
+  color: #e34f26;
+}
+.icon-instagram1:before {
+  content: "\e90a";
+  color: #e4405f;
+}
+.icon-java:before {
+  content: "\e906";
+  color: #007396;
+}
+.icon-javascript:before {
+  content: "\e907";
+  color: #f7df1e;
+}
+.icon-linkedin:before {
+  content: "\e90b";
+  color: #0077b5;
+}
+.icon-mysql:before {
+  content: "\e908";
+  color: #4479a1;
+}
+.icon-php:before {
+  content: "\e909";
+  color: #777bb4;
+}
+.icon-typescript:before {
+  content: "\e90c";
+  color: #007acc;
+}
